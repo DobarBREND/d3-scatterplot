@@ -107,15 +107,15 @@ let createPoints = () => {
         svg.append("line")
             .attr("x1", 625)
             .attr("x2", 895)
-            .attr("y1", 350)
-            .attr("y2", 350)
+            .attr("y1", 438)
+            .attr("y2", 438)
             .attr("stroke", "lightgray");
 
         svg.append("line")
             .attr("x1", 625)
             .attr("x2", 830)
-            .attr("y1", 270)
-            .attr("y2", 270)
+            .attr("y1", 366)
+            .attr("y2", 366)
             .attr("stroke", "lightgray");
        
        svg.append("text")
@@ -131,8 +131,8 @@ let myimage = svg.append("image")
             .attr("xlink:href", "https://cdn.pixabay.com/photo/2020/11/11/15/12/cyclist-5732774_960_720.png")
             .attr("width", 270)
             .attr("height", 270)
-            .attr("x", 700)
-            .attr("y", -75)
+            .attr("x", 620)
+            .attr("y", 36)
             .attr("transform", "rotate(5)");
 
 let createAxes = () => {
