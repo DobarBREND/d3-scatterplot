@@ -37,7 +37,7 @@ let createScales = () => {
                         }), d3.max(values, (item) => {
                             return new Date(item["Seconds"] * 1000)
                         })])
-                        .range([padding.bottom, height-padding.bottom])
+                        .range([height-padding.bottom, padding.bottom])
 
                 svg.append("text")
                         .style("text-anchor", "middle")
