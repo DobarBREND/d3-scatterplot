@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D3 Scatterplot Chart</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="icon" type="text/x-icon" href="icon-master.png">
+</head>
+<body>
+    <h1>D3 Scatterplot</h1>
+    <svg id='canvas'>
+        <text id='title' x='140' y='30'>Doping in Professional Bicycle Racing</text>
+        <text x="290" y="60">&mdash; 35 Fastest times up Alpe d'Huez &mdash;</text>
+        <!--<line x1="660" y1="300" x2="780" y2="300" stroke="whitesmoke"/>-->
+
+            <rect x="625" y="288" width="15" height="15"></rect>
+            <text x="650" y="300">Riders With Doping Allegation</text>
+
+            <rect id="rect2" x="625" y="318" width="15" height="15"></rect>
+            <text x="650" y="330">Riders Without Doping Allegation</text>
+
+            <text x="430" y="120" id="tooltip" text-align="center"></text>
+            <text x="700" y="590" id="copyright">&copy; Vladimir Jovanović :: DobarBREND 2023</text>
+    </svg>
+    <div id="legend"></div>
+</body>
+<script defer src='scripts.js'></script>
+</html>
